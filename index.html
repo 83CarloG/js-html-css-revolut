@@ -3,30 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>js-html-css-revolut</title>
   </head>
   <body>
 		<header class="header">
-			<div class="header-left">
-				<ul>
-					<li><img src="" alt=""></li>
-					<li>PERSONALE</li>
-					<li>BUSINESS</li>
+			<nav class="header-left">
+				<ul class="list-items">
+					<li class="item item-img"><img class="logo" src="img/download.png" alt="logo"></li>
+					<li class="item"><a href="#">PERSONALE</a></li>
+					<li class="item"><a href="#">BUSINESS</a></li>
 				</ul>
-			</div>
-			<div class="header-right">
-				<ul>
-					<li>Tariffazione</li>
-					<li>Conti</li>
-					<li>Prodotti</li>
-					<li>Azienda</li>
-					<li>Aiuto</li>
-					<li>IT</li>
+			</nav>
+			<nav class="header-right">
+				<ul class="list-items">
+					<li class="item open-menu">
+						tariffazione
+						<ul class="inside">
+							<li>Ciao</li>
+						</ul>
+					</li>
+					<!-- <li class="item"><a href="#">Conti</a></li>
+					<li class="item"><a href="#">Prodotti</a></li>
+					<li class="item"><a href="#">Azienda</a></li>
+					<li class="item"><a href="#">Aiuto</a></li>
+					<li class="item"><a href="#">IT<i class="fas fa-angle-down"></i></a></li>
+					<li class="item"><button class="button">Scarica l'app</button></li> -->
 				</ul>
-				<button>Scarica l'app</button>
-			</div>
+
+			</nav>
 		</header>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
