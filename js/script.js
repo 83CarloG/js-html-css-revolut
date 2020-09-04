@@ -1,6 +1,7 @@
-$(document).ready(function() {
-	$('.open-menu').click(
-		function() {
-			$('.inside').toggle();
+$(document).ready(function	() {
+	$('.list-items').click(
+
+		function	() {
+			$(this).children('.inside').toggle();
 	});
 });
