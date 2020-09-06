@@ -9,11 +9,13 @@
 a {
 	text-decoration: none;
 }
-.inside {
-	display: none;
+.button a {
+	background-color: inherit;
+	color: white;
 }
-.inside__item {
-	list-style: none;
+.inside a:hover {
+	background-color: inherit;
+	color: #000;
 }
 /* /Header */
 .header {
@@ -21,23 +23,38 @@ a {
 	margin: 20px auto;
 	width: 1080px;
 	height: 75px;
+	align-items: center;
 	justify-content: space-between;
 }
 .list-items {
 	display: inline-block;
 	list-style: none;
 	margin: 0px 10px;
-	line-height: 75px;
+
 }
+
 .item {
 	display: inline-block;
 	margin: 0px 20px;
 	line-height: 75px;
 }
-.button {
-
+.inside {
+	display: none;
+	white-space: nowrap;
+	position: absolute;
+	padding: 10px 15px;
+	line-height: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-
+.inside__item {
+	list-style: none;
+}
+.button {
+	padding: 12px 25px;
+  color: #fff;
+  background-color: #EB008D;
+  border-radius: 20px;
+}
 /* Header left */
 .header-left {
 	display: flex;
@@ -54,7 +71,6 @@ a {
 .header-right {
 	display: flex;
 }
-
 /* /Header right */
 
 /* /Header */
